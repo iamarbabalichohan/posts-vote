@@ -15,6 +15,7 @@ app.include_router(auth.router)
 app.include_router(vote.router)
 
 origins = [
+    "*"
     # List of origins I want to pass cors
 ]
 
